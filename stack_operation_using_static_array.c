@@ -27,7 +27,7 @@ int main()
                    break;
             case 2:item=pop();//pop()-->remove element from stack
                    if(item==0)
-                    printf("Stack is empty\n");
+                    printf("Stack is underflow\n");
                    else
                     printf("Popped element is %d \n",item);
                    break;
